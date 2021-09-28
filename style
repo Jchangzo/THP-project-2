@@ -1,0 +1,64 @@
+<!---->
+#box-container{
+	.header{}
+	.nav{display:flex}
+	.left{
+		menu_link{}
+		}
+
+	.right{}
+	.menu-icon{}
+}
+
+#logo-section{ display:flex
+	.container{}
+}
+
+#search_section{
+	.searchbar{   
+		border-radius: 50px 50px 50px 50px; 
+		border: 1px solid #dfe1e5;
+   		box-shadow: none;
+   		border-radius: 24px;
+ 		height: 44px;
+  		margin: 0 auto;
+    	width: auto;
+    	max-width: 584px;
+		 }
+	.searchbar:hover{box-shadow: 0 8px 15px rgb(0 0 0 / 20%);}	 
+	.icon_logo{}
+	.icon_mic{}
+
+	.container{ width: auto ;
+		.center{ display:flex; justify-content:center;align-items:baseline}
+		.btn{font-family: arial,sans-serif;
+    		font-size: 14px;
+    		margin: 11px 4px;
+    		padding: 0 16px;
+    		line-height: 27px;
+  			height: 36px;
+    		min-width: 54px;
+    		text-align: center;
+    		}
+		}
+	}
+
+#hero_section{ display: flex ; flex-direction:column; justify-content:center
+	.container{line-height: 28px;text-align:center}
+}
+
+
+#footer {background:#f2f2f2;
+	.footer_top{padding: 15px 30px;
+    			border-bottom: 1px solid #dadce0;
+  				font-size: 15px;
+   				color: #70757a; }
+
+    .footer_bottom{ display:flex: flex-direction:column;
+    		.container{ }
+    .center{width: 100%;display:flex }
+    .dans_le_doute{display: block;
+   					padding: 15px;
+  					white-space: nowrap;}
+    			}
+		}
